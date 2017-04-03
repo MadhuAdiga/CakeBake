@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake &amp; Bake</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> <!-- Include Bootstrap dependencies -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"> <!-- Include Gallery-lightbox dependencies -->
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">  <!-- Bootstrap inverse navigation bar -->
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><strong>Cake &amp; Bake</strong></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <!-- Navigation bar togglefor smaller screens. The logo also serves as a link to the index.html page -->
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1"> <!-- Navigation bar to navigate between 3 html pages through the navigation bar -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="index.html">ABOUT US</a></li>
+                    <li role="presentation"><a href="bakery_menu.html">OUR Menu</a></li>
+                    <li role="presentation"><a href="locate.html">Find a Store</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>  <!-- Bootstrap inverse navigation bar ends -->
+    
+    <p id="open"></p>
+
+    <div id="saleinfo"> <!-- Info banner for announcements  -->
+        <div class="jumbotron"> 
+            <h2 class="text-center"><strong>Cake &amp; Bake Sale</strong></h2>
+            <p class="text-center">Extra 20% off on your Birthday Cakes.</p>
+            <p class="text-center">Extra 10% off on all Cakes.</p>
+            <p></p>
+        </div>
+    </div> <!-- Info banner for announcements ends -->
+    
+    <div class="container" id="about" site-section=""> <!-- About-section for information  -->
+        <h1><strong>About Us</strong></h1>
+        <p class="text-center"><strong>At Cake &amp; Bake we are cake artists with a love for creating the sweetest part of your&nbsp;celebration. It all starts with recipes that are carefully crafted from scratch,&nbsp;a&nbsp;design that perfectly reflects&nbsp;your personality and a team of pastry chefs and cake decorators&nbsp;that are experienced in&nbsp;executing edible masterpieces. Our aesthetic approach is classic, joyful and always elegant.&nbsp;We believe that details matter. This&nbsp;is your most important day, and we are here to ensure that everyone remembers the cake</strong>            </p>
+    </div> <!-- About-section for information ends -->
+
+    <div id="dark-section">             <!-- Split section with 3 bootstrap columns defining different information  -->
+        <div class="container" id="about" site-section="">
+            <h1><strong>Why choose us</strong></h1>
+            <div class="row">
+                <div class="col-md-4"><i class="fa fa-birthday-cake"></i> <!-- Glypicon icon included -->
+                    <h3><strong>Great taste</strong></h3> <!-- Section heading included -->
+                    <p>We are a family-owned and operated business dedicated to customer satisfaction and hospitality.&nbsp; We will make you feel like family.&nbsp; Our friendly service and fresh ingredients are the best in Metro Atlanta. </p> <!-- Section description -->
+                </div>
+                <div class="col-md-4"><i class="fa fa-heartbeat"></i>
+                    <h3><strong>Healthy &amp; Organic</strong></h3>
+                    <p>Great tasting food and promoting healthy living, so you won’t be surprised to find that our distinctive range of organic breads, cakes and pastries use only traditional grains, sourdoughs and natural sugars and that the bakery is not
+                        just a bakery. </p>
+                </div>
+                <div class="col-md-4"><i class="fa fa-shopping-cart"></i>
+                    <h3><strong>Speedy Delivery</strong></h3>
+                    <p>Simply enjoy&nbsp;online&nbsp;cake delivery service free. Click here to place your order&nbsp;online. </p>
+                </div>
+            </div>
+        </div>
+    </div>  <!-- Split bootstrap info section ends  -->
+
+    <div class="container" id="about" site-section=""> <!-- Gallery section enabled with a lightbox display of the imported images  -->
+        <h1><strong>Gallery</strong> </h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail"> <!-- On click, the thumbnail image opens in a lightbox enabled with an arrow button to allow toggling between the gallery images -->
+                    <a href="halloween-cc-4.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/halloween-cc-4.jpg" alt="Halloween Special muffin" width="100%"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="IMG_4057.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/IMG_4057.jpg" alt="Halloween Special muffin" width="100%"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="midwest-bride-2.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/midwest-bride-2.jpg" alt="Wedding specials" width="100%"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"> 
+        <footer> <!-- Split Footer section with links to FB and twitter and all other related links and information  -->
+            <div class="row"> <!-- Section with three links to the 3 html pages-->
+                <div class="col-md-4 col-sm-6 footer-navigation">
+                    <h3><a href="index.html"><strong>Cake &amp; Bake</strong></a></h3>
+                    <p class="links"><a href="index.html">About </a><strong> · </strong><a href="bakery_menu.html">Bakery Menu</a><strong> · </strong><a href="locate.html">Find A Store</a><strong> </strong></p>
+                    <p class="company-name">Cake &amp; Bake © 2016 </p>
+                </div>
+                <div class="col-md-4 col-sm-6 footer-contacts"> <!-- Section with address, phone and email information -->
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span"><strong> 57, Sampige Road,</strong> </span> Bengaluru, Karnataka</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-left"><strong>080 4128 0909</strong> </p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p><strong>cnb@email.com</strong> </p>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>About the company</h4> <!-- Section with about information and FB/ twitter links and icons. Additionally linkedin/github links also can be added -->
+                    <p>We started as a family bakeshop. Local customers fell in love. Word got out. Fast forward two&nbsp;generations and our artistry and quality continue to set the trend.&nbsp;Our experience is admired&nbsp;though not easily replicated.
+                        </p>
+                    <div class="social-links social-icons"><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script> <!-- Include the bootstrap JS requirements and the Gallery-lightbox dependencies-->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
+    <script src="assets/js/modal.js"></script>
+</body>
+
+    <!-- Javascript code to inform the user if the bakery is open or not -->
+    <script type="text/javascript">
+        var today= new Date() ; // Fetch the current date's details and store it in the 'today' variable
+            var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; // Array "days" hold all the days in the week
+            var open =["Monday","Tuesday","Wednesday","Thursday","Friday"]; // Array days hold all the days in the week when the bakery is open
+            var i;
+                for(i=0;i<open.length;i++){ // Iterate through the "open" array
+                    if(open[i]=== days[today.getDay()]) { // Check if the current day is a working day
+                    document.getElementById("open").innerHTML = "Yay! We are open today. Visit our store or call us to place an order."; // Display that the bakery is open to take orders
+                    break;
+                    }
+                            
+                    else  {
+                    document.getElementById("open").innerHTML = "Oh no! We are closed today. We are open from Mon-Fri. Please do visit us. "; // Else display that the bakery is closed
+                
+                    }
+                }              
+    </script>
+
+</html>

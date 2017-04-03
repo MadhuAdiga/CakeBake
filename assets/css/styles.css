@@ -1,0 +1,170 @@
+#saleinfo{
+  background:url(../../assets/img/halloween-cc-4.jpg);
+  background-size:cover;
+  text-align:center;
+  padding:40px;
+  margin-top:60px;
+}
+
+#saleinfo.jumbotron{
+  border-radius:20px;
+}
+
+#saleinfo .jumbotron{
+  border-radius:20px;
+  margin-top:20px;
+  max-width:800px;
+  margin:0 auto;
+  background-color:rgba(255,255,255,0.75);
+}
+
+@media (max-width:991px) {
+  #saleinfo .jumbotron{
+    padding:20px;
+  }
+}
+
+@media (max-width:991px) {
+  #saleinfo{
+    padding:20px;
+  }
+}
+
+#saleinfo-events.row{
+  padding-top:10px;
+}
+
+.cater-type{
+  background-color:rgb(192,174,100);
+  border-radius:20px;
+}
+
+#about{
+  padding:50px 0 60px;
+  text-align:center;
+}
+
+#about p{
+  max-width:800px;
+  margin:0 auto;
+  font-size:20px;
+}
+
+#about h1{
+  margin-bottom:30px;
+}
+
+#gallery{
+  margin:0 auto;
+}
+
+i.fa.fa-birthday-cake{
+  font-size:40px;
+  color:rgb(237,88,5);
+}
+
+i.fa.fa-heartbeat{
+  font-size:40px;
+  color:rgb(237,88,5);
+}
+
+i.fa.fa-shopping-cart{
+  font-size:40px;
+  color:rgb(237,88,5);
+}
+
+#dark-section{
+  background-color:rgb(169,207,115);
+}
+
+img#logo{
+  max-height:20px;
+  margin-right:10px;
+  margin-top:-8px;
+}
+
+#bakerymenu{
+  margin-top:70px;
+  margin-bottom:10px;
+  background-color:#181310;
+  color:black;
+}
+
+.menutype{
+  color:black;
+  border:solid 3px #696161;
+}
+
+.itemdescr{
+  border-bottom:solid #696161 2px;
+  padding-top:10px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:10px;
+  border-radius:10px;
+  background-color:#BED7BA;
+  box-shadow:5px 5px 2px #888888;
+}
+
+.nav-pills li.active > a, .nav-pills li > a:hover{
+  border-color:#dfd7ca;
+  color:black;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+  text-decoration:none;
+  background-color:#f8f5f0;
+  color:black;
+}
+
+h4.bg-success.modal-title{
+  color:black;
+}
+
+.locate{
+  background-color:#93C54B;
+  border-radius:7px;
+  border-left:2px solid grey;
+  margin-top:5px;
+}
+
+a.btn.btn-default.active{
+  color:black;
+  font-size:0.95em;
+  background-color:#FB7900;
+}
+
+.location{
+  color:black;
+  font-family:'Cookie';
+  font-size:1.4em;
+  border-right:4px grey solid;
+  border-radius:3px;
+}
+
+.jumbotron{
+  margin-bottom:30px;
+  color:inherit;
+  background-color:#f8f5f0;
+  margin:35px;
+  border-radius:20px;
+  border:5px solid orange;
+  padding:35px;
+  background:pink;
+}
+
+.pie{
+  background-color:#ffb732;
+}
+
+.pastry{
+  background-color:#ffc0cb;
+}
+
+#open {
+  margin-top: 70px;
+  margin-left: 20px;
+  font-size: 1.2em;
+  color:black;
+}
+
